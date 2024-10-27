@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1250424358663075622
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1250424358663075624}
+  - component: {fileID: 1250424358663075625}
+  m_Layer: 0
+  m_Name: enemySpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1250424358663075624
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1250424358663075622}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 54.356533, y: 50.37987, z: 0.28099647}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1250424358663075625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1250424358663075622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 583c53d312ed2b341946571010ee7d37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyForestGoblin: {fileID: 3542760949899003952, guid: 2922db7f7f4e6434297ba88449ae692e, type: 3}
+  enemySandGoblin: {fileID: 3542760949899003952, guid: a40f4438e79f71146921fc400713c12c, type: 3}
+  enemyMageGoblin: {fileID: 3259140993968553767, guid: 9743b0754a9fa6e4ebcc60972a7492e0, type: 3}
+  enemySlime: {fileID: 8480854156269047915, guid: 73925d7053a38b24b8b7ae5fae6e4733, type: 3}
+  player: {fileID: 6684475951313926908, guid: b30abd3aedd392c47814ff7002e4c370, type: 3}
+  bossPrefab: {fileID: 3542760949899003952, guid: 532068951fe545b49bee5a2770a9fa26, type: 3}
+  enemyEyeBall: {fileID: 3542760949899003952, guid: 8f4a6e6da9afb23429f75c56c1569ea4, type: 3}
+  enemyKnight: {fileID: 3542760949899003952, guid: 190a07f5ff8a7ca429a82d7432d3d9c2, type: 3}
+  enemyGhostKnight: {fileID: 3542760949899003952, guid: 26d8a5ca44a21f94eb81a43f4ea69880, type: 3}
+  spawnRate: 0.5
+  tilemap: {fileID: 0}
+  checkPerFrame: 10
+  isBossSpawned: 0
+  checkRadius: 0.5
+  wallLayerMask:
+    serializedVersion: 2
+    m_Bits: 128

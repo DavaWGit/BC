@@ -1,4 +1,4 @@
-Spuštění klasicky dvojklikem na .exe soubor.
+Spuštění dvojklikem na .exe soubor.
 Hlavní menu: 	Tlačítko "Play" začne hru.
 		Tlačítko "Shop" otevře obchod se zbraněmi a vylepšeními, které si hráč může zakoupit za mince.
 			Počet jeho mincí se nachází vpravo nahoře.
@@ -10,3 +10,5 @@ Hra: 	Levé kliknutí = útok hráče
 	Vylepšovací okno hráče = kliknutím na plusko "+" u atributu zvýší atribut o jedna za cenu jednoho bodu vylepšení.
 Obchod:		Kliknutím na tlačítko "Buy" u jakéhokoliv předmětu hráč tento předmět zakoupí, pokud na něj má dostatek mincí.
 		U zakoupených předmětů kliknutím na tlačítko "Equip" hráč předmět nasadí.
+
+Ukázka hry: https://youtu.be/xA9k7G2JnvU
